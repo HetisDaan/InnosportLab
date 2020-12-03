@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style.css">
+      <title>Document</title>
+   </head>
+
+   <body>
+
+      <div id="navbar">
+         <img src="images/logo.png">
+         <a href="#box2">Het product</a>
+         <a href="#box3">Foto's</a>
+         <a href="#box4">Spellen</a>
+      </div>
+
+      <div id="box1">
+         <video autoplay muted src="images/Comp 2.mp4"></video>
+      </div>
+<!--Daan: hieronder een grid voor het deel van het ontschrijven van het product-->
+      <h1>Het Product</h1> 
+      <div id="box2">
+         
+         <div class="grid-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>  
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+          </div>
+          
+      </div>
+         
+      </div>
+      <!--Daan: hier is de image slider die werkt via javascript-->
+      <div id="box3">
+         
+           <div class="slideshow-container">
+              <h1>Foto's</h1>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="images/IMG_0710.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="images/IMG_0711.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <img src="images/IMG_0713.JPG" style="width:100%">
+            </div>
+         </div>
+
+      </div>
+
+      <div id="box4">
+         
+        
+         <div class="game-container">
+            
+            <div class="game-grid-item" data-spel= "kleurentest">
+               <p class="game-title">De Kleurentest</p>
+               <p class="rules">Dit spel is snel en eenvoudig voor te bereiden en uit te voeren. 
+                  Plaats de ring op een positie onderwater die goed bereikbaar is voor de kinderen.<span class="dots">...</span><span class="more">
+                  Nadat de ring goed gepositioneerd is, kan de kleurentest gespeeld worden. 
+                  Ieder deelnemend kind gaat om de beurt door de ring heen, en zodra een kind 
+                  onder water gedoken is, wordt de kleur van de ring aangepast. Hierna moet het 
+                  kind goed opletten welke kleur de ring heeft zodra hij/zij erdoorheen zwemt. 
+                  Wanneer het kind dan weer boven water opkomt, beantwoord het kind dan 
+                  welke kleur de ring had toen hij/zij erdoorheen zwom, en bij het juiste antwoord, 
+                  is de oefening voltooid. Ook wanneer een kind het antwoord verkeerd heeft, 
+                  kan hierop geoefend worden, en kan een kind steeds opnieuw proberen om 
+                  onder water zijn/haar ogen open te doen om goed op te letten.</span></p>
+                  <button onclick="verleng('kleurentest')" class="verlengknop">lees meer</button>
+                  
+            </div>
+            
+            <div class="game-grid-item" data-spel= "storytime">
+               
+               <p class="game-title">Storytime</p>
+               <p class="rules">Storytime is net als een soort Stoelendans, maar dan in het water, 
+                  en in plaats van muziek, wordt er een verhaaltje verteld door de badmeester of juf. <span class="dots">...</span><span class="more">
+                  Vooraf wordt een magisch woord afgesproken. Zodra de badmeester of juf dit woord
+                   zegt tijdens het vertellen van haar verhaal, is dit het moment dat ieder deelnemend 
+                   kind onderwater moet voor een paar seconden. Wie als laatste onderwater gaat, is af, 
+                   en moet door de ring zwemmen. Wanneer dit lukt, mag het kind dat af is, het verhaal 
+                   hervatten en op eigen manier doorvertellen. Dat kind moet uiteindelijk zelf ook het 
+                   magische woord zeggen, en dat is het signaal voor de andere kinderen om opnieuw 
+                   onderwater te gaan. Het proces herhaalt zichzelf totdat er maar één kind over is. 
+                   Hij/Zij is dan de winnaar!</span></p>
+                   <button onclick="verleng('storytime')" class="verlengknop">lees meer</button>
+            </div>
+           
+            <div class="game-grid-item" data-spel= "simonsays">
+               <p class="game-title">Simon Says</p>
+               <p class="rules">
+                  De meesten kennen het spelletje al op een andere manier. Je krijgt voorafaan een volgorde met vier kleuren aangewezen, 
+                  en de speler moet deze reeks zelf herhalen. Met de Swim Loops kan dit ook! <span class="dots">...</span><span class="more">
+                  Hierbij worden vier ringen onderwater geplaatst, op posities die niet te ver, 
+                  maar ook niet te dicht bij elkaar staan.(Ga uit van een afstand van 2,5 meter 
+                  tussen elke ring.)  Deze krijgen een kleur mee die niet veranderd door het spel heen. 
+                  Dit kan het klassieke kleurenkwartet van rood, geel, groen en blauw zijn, maar ook 
+                  andere kleuren kunnen gebruikt worden, zo ze van elkaar te onderscheiden zijn. 
+                  Hierna wordt de klas in twee teams ingedeeld. Afhankelijk van hoe goed ieder 
+                  individueel kind kan zwemmen, mag de badmeester of juf zelf aanpassen hoe 
+                  moeilijk de uitdaging voor dat kind wordt. Een kind wat al heel goed kan zwemmen, 
+                  kan bijvoorbeeld de opdracht krijgen door alle vier ringen te zwemmen in een bepaalde 
+                  volgorde, terwijl een kind dat meer moeite heeft om onderwater te zwemmen, door minder 
+                  ringen heen moet zwemmen. Wanneer een kind de gegeven opdracht voltooid heeft, en dus 
+                  door alle gewenste ringen gezwommen heeft, krijgt het team van dat kind één punt. Naderhand, 
+                  wanneer iedereen een vooraf afgesproken aantal pogingen heeft gedaan, is het spel voorbij, 
+                  en heeft het team met de meeste punten gewonnen.</span></p>
+               <button onclick="verleng('simonsays')" class="verlengknop">lees meer</button>
+            </div>
+         </div>
+      </div>
+
+      <div id="box5">
+            <div class="game-image-container">
+            <div class="game-image-item"><img src="images/gridimage1.jpg" alt="Afbeelding1" width="450" height="300"></div>
+
+            <div class="game-image-item"><img src="images/gridimage2.jpg" alt="Afbeelding2" width="450" height="300"></div>
+
+            <div class="game-image-item"><img src="images/gridimage3.jpg" alt="Afbeelding3" width="450" height="300"></div>
+
+            <div class="game-image-item"><img src="images/gridimage4.jpg" alt="Afbeelding4" width="450" height="300"></div>
+
+            <div class="game-image-item"><img src="images/gridimage5.jpg" alt="Afbeelding5" width="450" height="300"></div>
+
+            <div class="game-image-item"><img src="images/gridimage6.jpg" alt="Afbeelding6" width="450" height="300"></div>
+         </div>
+      </div>
+<!--Daan: begin gemaakt van de footer-->
+      <footer>
+         <ul class="flex-container">
+            <li class="flex-item"><img src="images/Info.png" alt="Info" width="200" height="200"></li>
+            <li class="flex-item"></li>
+            <li class="flex-item">Information</li>
+         </ul>
+      </footer>
+      <script src="./app.js"></script>
+   </body>
+</html>
